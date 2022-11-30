@@ -1,7 +1,6 @@
 manifest:
   defaults:
     remote: upstream
-    revision: v0.1.0
     
   remotes:
     - name: upstream
