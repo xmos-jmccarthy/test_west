@@ -9,15 +9,4 @@ manifest:
       
   self:
       path: test_west
-      
-  projects:
-    - name: ex_0
-      path: examples/ex0
-    - name: ex_1
-      path: examples/ex1
-    - name: bar0
-      path: modules/bar0
-    - name: foo0
-      path: modules/foo0
-    - name: foobar0
-      path: modules/foobar0
+
