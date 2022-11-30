@@ -1,6 +1,23 @@
 manifest:
   defaults:
     remote: upstream
+    revision: v0.1.0
+    
   remotes:
     - name: upstream
-      url-base: https://github.com/xmos-jmccarthy/test_west
+      url-base: https://github.com/xmos-jmccarthy
+      
+  self:
+      path: test_west
+      
+  projects:
+    - name: ex_0
+      path: examples/ex0
+    - name: ex_1
+      path: examples/ex1
+    - name: bar0
+      path: modules/bar0
+    - name: foo0
+      path: modules/foo0
+    - name: foobar0
+      path: modules/foobar0
